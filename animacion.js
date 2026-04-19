@@ -9,8 +9,6 @@ const letterTexts = {
     signature2: "¿Quieres ser mi novia?"
 };
 
-
-
 // Función para efecto typing
 function typeText(element, text, speed = 30) {
     return new Promise((resolve) => {
