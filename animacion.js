@@ -9,7 +9,7 @@ const letterTexts = {
     signature2: "¿Quieres ser mi novia?"
 };
 
-const loveMessageText = "Te amo mucho";
+
 
 // Función para efecto typing
 function typeText(element, text, speed = 30) {
@@ -88,14 +88,9 @@ function closeLetter() {
                 if (element) element.textContent = '';
             });
 
-            // Mostrar mensaje de amor
-            loveMessage.classList.add('show');
-            typeText(document.getElementById('loveText'), loveMessageText, 100);
+         
 
-            // Ocultar mensaje después de 4 segundos
-            setTimeout(() => {
-                loveMessage.classList.remove('show');
-            }, 4000);
+         
         }, 300);
     }, 500);
 }
